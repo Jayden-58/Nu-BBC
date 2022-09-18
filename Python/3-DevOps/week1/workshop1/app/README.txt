@@ -1,0 +1,2 @@
+Hello, Please ask instructor carter to vouch that I wasn't able to complete the workshop past step 7. 
+We attempted to debug my issue, but we couldn't figure it out in time. He said to submit the files but no screenshots because I didn't get that far 
