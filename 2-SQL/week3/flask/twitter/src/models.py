@@ -42,7 +42,7 @@ class Tweet(db.Model):
     )
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable = False)
     liking_users = db.relationship(
-        'user', secondary=likes_table,
+        'User', secondary=likes_table,
         lazy='subquery',
         backref=db.backref('liked_tweets', lazy=True)
     )
